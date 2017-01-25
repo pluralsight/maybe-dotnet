@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Pluralsight.Maybe</id>
+    <version>1.0.1</version>
+    <authors>ps-dev</authors>
+    <owners>Pluralsight</owners>
+    <licenseUrl>https://github.com/pluralsight/maybe-dotnet</licenseUrl>
+    <projectUrl>https://github.com/pluralsight/maybe-dotnet</projectUrl>
+    <iconUrl>https://github.com/pluralsight/maybe-dotnet</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Maybe implementation for C#</description>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>pluralsight</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Pluralsight.Maybe.dll" target="lib\net461" />
+    <file src="..\Pluralsight.Maybe.46\bin\Release\Pluralsight.Maybe.dll" target="lib\net46" />
+    <file src="..\Pluralsight.Maybe.452\bin\Release\Pluralsight.Maybe.dll" target="lib\net452" />
+    <file src="..\Pluralsight.Maybe.451\bin\Release\Pluralsight.Maybe.dll" target="lib\net451" />
+    <file src="..\Pluralsight.Maybe.45\bin\Release\Pluralsight.Maybe.dll" target="lib\net45" />
+  </files>
+</package>
