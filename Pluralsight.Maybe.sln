@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.Maybe", "Pluralsight.Maybe.csproj", "{27203E13-FA63-460F-8E6B-99667B1FD154}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.Maybe", "Pluralsight.Maybe\Pluralsight.Maybe.csproj", "{27203E13-FA63-460F-8E6B-99667B1FD154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.Maybe.Specs", "..\Pluralsight.Maybe.Specs\Pluralsight.Maybe.Specs.csproj", "{F3181D72-8BBA-4007-9F1D-F8BAAC444741}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.Maybe.Specs", "Pluralsight.Maybe.Specs\Pluralsight.Maybe.Specs.csproj", "{F3181D72-8BBA-4007-9F1D-F8BAAC444741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
