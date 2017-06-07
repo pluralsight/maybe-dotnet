@@ -45,6 +45,15 @@ namespace Pluralsight.Maybe
             return values.DefaultIfEmpty(@default).Single();
         }
 
+        public T ValueOrThrow(Exception e)
+        {
+            if (HasValue)
+            {
+                return Value;
+            }
+            throw e;
+        }
+
         public U Case<U>(Func<T, U> some, Func<U> none)
         {
             return HasValue

@@ -170,4 +170,23 @@ namespace Pluralsight.Maybe.Specs
 
         static string result = null;
     }
+
+    public class When_calling_value_or_throw_and_there_is_a_value : ContextSpecification
+    {
+        Because of = () => value = Maybe.Some(1).ValueOrThrow(new Exception());
+
+        It should_return_the_value = () => value.ShouldEqual(1);
+
+        static int value;
+    }
+
+    public class When_calling_value_or_throw_and_there_is_no_value : ContextSpecification
+    {
+        Because of = () => thrownException = Catch.Exception(() => Maybe<int>.None.ValueOrThrow(exception));
+
+        It should_throw = () => thrownException.ShouldBeSameAs(exception);
+
+        static Exception exception = new Exception();
+        static Exception thrownException;
+    }
 }
