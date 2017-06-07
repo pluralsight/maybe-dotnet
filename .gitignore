@@ -24,3 +24,4 @@ _NCrunch_PS.Identity/
 *.un~
 *.swp
 .vs/
+*.nupkg
