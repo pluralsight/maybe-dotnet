@@ -42,11 +42,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="NUnit.Specifications, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Pluralsight.Maybe\packages\NUnit.Specifications.1.1.2\lib\net45\NUnit.Specifications.dll</HintPath>
+      <HintPath>..\packages\NUnit.Specifications.1.1.2\lib\net45\NUnit.Specifications.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Should, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Pluralsight.Maybe\packages\Should.1.1.20\lib\Should.dll</HintPath>
+      <HintPath>..\packages\Should.1.1.20\lib\Should.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -64,7 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Pluralsight.Maybe\Pluralsight.Maybe.csproj">
