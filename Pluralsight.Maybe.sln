@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.Maybe", "Pluralsight.Maybe\Pluralsight.Maybe.csproj", "{27203E13-FA63-460F-8E6B-99667B1FD154}"
 EndProject
@@ -14,6 +14,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.Maybe.451", "Pluralsight.Maybe.451\Pluralsight.Maybe.451.csproj", "{BB34BF5E-B689-428F-89EA-D39DA253584E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.Maybe.45", "Pluralsight.Maybe.45\Pluralsight.Maybe.45.csproj", "{A32B8078-D740-416D-B7D2-8880ACCE1A56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31C71A4A-7FD5-4DDC-AF3A-B5E633D90AEB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
