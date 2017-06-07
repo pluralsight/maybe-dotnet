@@ -42,7 +42,11 @@ namespace Pluralsight.Maybe
 
         public T ValueOrDefault(T @default)
         {
-            return values.DefaultIfEmpty(@default).Single();
+            if (!HasValue)
+            {
+                return @default;
+            }
+            return values.Single();
         }
 
         public T ValueOrThrow(Exception e)

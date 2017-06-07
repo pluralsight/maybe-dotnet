@@ -113,6 +113,16 @@ namespace Pluralsight.Maybe.Specs
         static string result;
     }
 
+    public class When_calling_ValueOrDefault_and_the_Maybe_is_NOT_initialized : ContextSpecification
+    {
+        Because of = () => result = maybe.ValueOrDefault("boo!");
+
+        It should_return_the_value = () => result.ShouldEqual("boo!");
+
+        static Maybe<string> maybe;
+        static string result;
+    }
+
     public class When_mapping_some : ContextSpecification
     {
         Because of = () => result = maybe.Map(x => x.ToUpper());
