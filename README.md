@@ -40,7 +40,7 @@ Handle the cases where there is some value or there is none
 ```csharp
 var name = maybeAccount.Case(
     some: account => account.FirstName,
-    none: () => "Annonymous");
+    none: () => "Anonymous");
 ```
 
 Map a maybe to another type
