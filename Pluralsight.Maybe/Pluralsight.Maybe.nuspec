@@ -17,6 +17,7 @@
   </metadata>
   <files>
     <file src="bin\Release\netstandard2.0\Pluralsight.Maybe.dll" target="lib\netstandard2.0" />
+    <file src="..\Pluralsight.Maybe.461\bin\Release\Pluralsight.Maybe.dll" target="lib\net461" />
     <file src="..\Pluralsight.Maybe.46\bin\Release\Pluralsight.Maybe.dll" target="lib\net46" />
     <file src="..\Pluralsight.Maybe.452\bin\Release\Pluralsight.Maybe.dll" target="lib\net452" />
     <file src="..\Pluralsight.Maybe.451\bin\Release\Pluralsight.Maybe.dll" target="lib\net451" />
