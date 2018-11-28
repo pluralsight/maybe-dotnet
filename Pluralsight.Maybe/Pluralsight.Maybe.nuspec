@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$(AssemblyTitle)</id>
-    <version>$(AssemblyVersion)</version>
+    <id>Pluralsight.Maybe</id>
+    <version>1.1.0</version>
     <authors>ps-dev</authors>
-    <owners>$(Company)</owners>
+    <owners>Pluralsight</owners>
     <licenseUrl>https://github.com/pluralsight/maybe-dotnet</licenseUrl>
     <projectUrl>https://github.com/pluralsight/maybe-dotnet</projectUrl>
     <iconUrl>https://github.com/pluralsight/maybe-dotnet</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$(Description)</description>
+    <description>Maybe implementation for C#</description>
     <releaseNotes>
     </releaseNotes>
-    <copyright>$(Copyright)</copyright>
+    <copyright>Copyright 2018</copyright>
     <tags>pluralsight</tags>
   </metadata>
   <files>
